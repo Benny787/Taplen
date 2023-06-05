@@ -15,12 +15,12 @@ video {
     text-decoration: none;
     color: #fff;
     font-size: 30px;
-    border-bottom: 3px solid rgba(255, 255, 255, 0);
-    transition: 0.3s ease-in-out;
+    border-bottom: 3px solid rgba(23, 195, 178, 0);
+    transition: 0.2s ease-in-out;
   }
 
   #aboutUsLink:hover {
-    border-bottom: 3px solid rgba(255, 255, 255, 1);
+    border-bottom: 3px solid rgba(23, 195, 178, 1);
   }
   
   .hero-container {

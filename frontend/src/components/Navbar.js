@@ -70,7 +70,10 @@ function Navbar() {
               </Link>
             </li>
           </ul>
+          {/* Button 2 (Green button) */}
           {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {/* Button 1 (blue button) */}
+          {/* {btn && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
         </div>
       </nav>
     </>

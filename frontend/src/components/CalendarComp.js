@@ -81,9 +81,14 @@ function CalendarComp() {
                 <input id="titleInput" type="text" autoComplete="off" placeholder="Add Title" value={newEvent.title} onChange={(e) => setNewEvent({ ...newEvent, title: e.target.value })} />
                 <DatePicker id="dateInputStart" type="text" autoComplete="off" placeholderText="Start Date" selected={newEvent.start} onChange={(start) => setNewEvent({ ...newEvent, start })} />
                 <DatePicker id="dateInputEnd" type="text" autoComplete="off" placeholderText="End Date" selected={newEvent.end} onChange={(end) => setNewEvent({ ...newEvent, end })} />
-                <button stlye={{ marginTop: "10px" }} onClick={handleAddEvent}>
+                {/* Green button */}
+                <button className="button" stlye={{ marginTop: "10px" }} onClick={handleAddEvent}>
                     Add Event
                 </button>
+                {/* Blue button */}
+                {/* <button stlye={{ marginTop: "10px" }} onClick={handleAddEvent}>
+                    Add Event
+                </button> */}
             </div>
             <Calendar localizer={localizer} events={allEvents} startAccessor="start" endAccessor="end" style={{ height: "40vh", margin: "50px" }} />
         </div>

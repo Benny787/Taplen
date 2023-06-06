@@ -40,6 +40,7 @@ function AboutUs() {
                     </li>
                 </ul>
             </div>
+            <a id="heroSectionLink" href="#">Back to Top</a>
         </div>
     </section>
   );

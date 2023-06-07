@@ -22,11 +22,15 @@
     background-color: aliceblue;
     border-bottom: 2px solid black;
     height: 20vh;
-    width: 85vw;
+    width: 70vw;
 }
 
 .socialHeaderSection {
   height: 23vh;
+}
+
+.gitHubSpan a {
+  color: inherit;
 }
 
 .wrapper {
@@ -140,7 +144,7 @@
   text-decoration: none;
   color: black;
   font-size: 20px;
-  border-bottom: 3px solid rgba(23, 195, 178, 0);
+  border-bottom: 3px solid rgba(0, 0, 1, 1);
   transition: 0.2s ease-in-out;
 }
 
